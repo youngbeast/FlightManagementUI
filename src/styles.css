@@ -1,1 +1,34 @@
 /* You can add global styles to this file, and also import other style files */
+
+.dash-shadebg {
+    background: linear-gradient( to left, #71a8e1,#bc77c9)
+   
+}
+
+.btn {
+    border-radius: 1.25rem;
+ }
+
+ body {
+     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+ }
+
+.input-control-label {
+    font-size: x-large;
+}
+
+.table .thead-dark th {
+    color: #fff;
+    background-color: #8cbdf5;
+    border-color: #8cbdf5;
+}
+
+.table-bordered thead td,
+.table-bordered thead th {
+    border-bottom-width: 1px;
+}
+
+.table-loading__col{
+    align-items: center;
+    justify-content: center;
+}

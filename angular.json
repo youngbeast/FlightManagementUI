@@ -1,9 +1,12 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "71b16c5b-0e3e-4340-afce-a8d49c48e8f6"
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "FlightBookingSystem": {
+    "flight-booking-system": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -68,10 +71,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "FlightBookingSystem:build:production"
+              "browserTarget": "flight-booking-system:build:production"
             },
             "development": {
-              "browserTarget": "FlightBookingSystem:build:development"
+              "browserTarget": "flight-booking-system:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -79,7 +82,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "FlightBookingSystem:build"
+            "browserTarget": "flight-booking-system:build"
           }
         },
         "test": {
@@ -102,5 +105,5 @@
       }
     }
   },
-  "defaultProject": "FlightBookingSystem"
+  "defaultProject": "flight-booking-system"
 }
